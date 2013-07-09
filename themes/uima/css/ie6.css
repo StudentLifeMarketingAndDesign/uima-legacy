@@ -1,0 +1,82 @@
+/* CSS Document */
+
+
+#bodywrap #content-container4 #content  #locations {
+margin-top:-298px;
+}
+			
+#rotate ul.ui-tabs-nav {
+margin-left:-3px;}
+	
+ul.menu li {
+line-height:12px;
+}
+
+ul.menu li ul li {
+line-height:12px;
+}
+
+.bar1, .bar2, .bar3, .bar4, .bar5 {
+display:none;
+}
+	
+#events h1, .news h1, #content-container4 #video h1, #content-container4 #blogs h1 {
+padding:0px;
+}
+
+#events h1, .news h1, #video h1 {
+margin-top:10px;
+}
+
+#events h1, .news h1, #video h1, #blogs h1 {
+padding-bottom:0px;
+}
+
+#content ul.exhibitions li {
+width:740px;
+background:#F7F7F7 url(../images/gradient4.png) repeat scroll 0 0;
+border:1px solid #CCCCCC;
+height:222px;
+margin-left:40px;
+margin-bottom:20px;
+padding:20px;
+}
+
+#content-container4 #content .collection-title h3 a {
+line-height:20px;
+}
+
+.collection-box {
+margin-bottom:10px;
+}
+
+
+#content .location-details {
+width:230px;
+}
+
+#bodywrap #content-container4 {
+background-image:none;}
+
+#content-container2 {
+
+}
+
+#content-container2 #rotate {
+width:550px;
+min-height:200px;margin-right:-100px;
+margin-left:100px;
+}
+
+#content-container2 #locations ul  {
+
+}
+
+#content-container2 #locations  {
+width:600px;padding:0px;
+min-height:200px;
+margin-left:100px;margin-right:-50px;
+}
+
+#content-container1 {float:left;clear:right;
+margin-top:0px;}

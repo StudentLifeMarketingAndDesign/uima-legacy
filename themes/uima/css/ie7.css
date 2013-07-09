@@ -1,0 +1,56 @@
+/* CSS Document */
+
+#content ul.press  {
+margin:0px 0px 0px 0px;}
+
+#rotate ul.ui-tabs-nav {
+	margin-left:-3px;}
+	
+#footer-container {
+	height:500px;}
+	
+#content-container3	ul.archiveMonths {
+margin-left:6px;
+list-style-type:none;}
+
+#content-container4 #content .collection-title h3 a {
+line-height:15px;
+}
+
+
+#content-container4 #content ul.artwork {
+margin-left:0px;}
+
+#content-container4 #content .location-details {
+float:left;
+width:290px;
+clear:both;
+padding-bottom:30px;
+padding-right:150px;
+
+}
+
+
+
+#content #press-room .press-room h5{
+color:black;
+
+}
+
+#press-room {
+margin-top:0px;}
+
+#content #press-room ul.events-page {
+background:none;border:none;
+margin-top:0px;
+margin-left:-20px;}
+
+#content #press-room ul.events-page li {
+background:none;
+border-right:none;
+border-left:none;
+border-top:none;
+margin-bottom:5px;
+padding-bottom:5px;
+padding-top:10px;
+border:none;}

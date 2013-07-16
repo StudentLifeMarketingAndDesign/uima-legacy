@@ -1484,3 +1484,15 @@ input.text {
 	margin: 0;
 	font-size: 1.1em;
 }
+
+#PageNumbers {
+	margin-top: 20px;
+}
+
+#PageNumbers a {
+	padding: 2px;
+}
+
+#PageNumbers a.next, #PageNumbers a.prev {
+	padding: 5px;
+}

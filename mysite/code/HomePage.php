@@ -36,6 +36,7 @@ class HomePage_Controller extends Page_Controller {
 		return DataObject::get("HomePageTab", $whereStatement);
 		
 	}	
+	
 }
 
 

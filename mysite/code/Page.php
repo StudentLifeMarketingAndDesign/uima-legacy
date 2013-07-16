@@ -149,13 +149,24 @@ class Page_Controller extends ContentController {
 	public function currentEvents(){
 		
 		$eventsPageID = 23;
-		$eventSet = DataObject::get("EventsPage", "ParentID = ".$eventsPageID, null, null, $limit );
+		$limit = 10;
+		$eventSet = DataObject::get("EventsPage", "ParentID = ".$eventsPageID, 'EventDate DESC', null, $limit );
+		
 		
 		if($eventSet){
 			return $eventSet;
 		}
 	
 	}  
+	
+	public function getSidebarNews(){
+		 $limit = "0, 10";
+		
+
+		 $newsEntries = DataObject::get('HomePageNews', '' , 'NewsDate DESC', '', $limit);
+		 
+		 return $newsEntries; 
+	}
 	
 }
 

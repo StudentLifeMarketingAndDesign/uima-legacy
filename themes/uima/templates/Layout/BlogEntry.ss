@@ -65,7 +65,7 @@
 		<% if IsWYSIWYGEnabled %>
 			$Content
 		<% else %>
-			$ParsedContent
+			$Content
 		<% end_if %>
 		
 		<br />

@@ -68,7 +68,7 @@ $Layout
 	<% end_control %>
 </ul>
 
-<div id="donate-nav"><a href="/support/">Donate</a></div>
+<div id="donate-nav" style="text-align:center;"><a href="/join/">Join</a></div>
         <div id="icons">
         <a href="http://www.twitter.com/UIMuseumofArt" target="_blank"><img src="$ThemeDir/images/twitter.png" alt="twitter" width="22" height="22" /></a>
         <a href="http://www.flickr.com/photos/iowaart/" target="_blank"><img src="$ThemeDir/images/flickr.png" alt="twitter" width="22" height="22" /></a>

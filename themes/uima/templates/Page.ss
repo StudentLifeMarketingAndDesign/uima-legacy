@@ -176,16 +176,6 @@ Fax: (319) 335-3677 |
 </div>
 
 <div style="margin-left:10px;" class="footer-links4">
-<ul>
-<li><h5><a href="/about/">About</a></h5></li>
-<li><a href="/future-of-the-uima/">Future of the UIMA</a></li>
-<li><a href="/museum-history/">Museum History</a></li>
-<li><a href="/in-the-news/">In the News</a></li>
-<li><a href="/press-room/">Press Releases</a></li>
-<li><a href="/uima-magazine/">UIMA Magazine</a></li>
-
-</ul>
-
 
 <ul>
 <li><h5><a href="/blog/">Blog</a></h5></li>

@@ -30,36 +30,6 @@
 
 <% include NewsSidebar %>
 
-<div class="news">
-<h1><a href="blog">Blog</a></h1>
-<div class="bar5"></div>
-<% if LatestNews %>
-<ul>
-<% control LatestNews(3) %>
-<li><h2><a href="$Link">$MenuTitle</a></h2>
-<p class="summary">$Date.Format(F d&#44; Y)</p></li>
-<% end_control %>
-</ul>
-<% end_if %>
-</div>
-
-<div class="news">
-<h1><a href="http://www.youtube.com/user/UIMAartmatters">Video</a></h1>
-<div class="bar3"></div>
-
-<div id='mediaspace-small'></div>
-
-<script type='text/javascript'>
-  var so = new SWFObject('/mysite/code/flash/mp3_player/player.swf','ply','220','151','9','#ffffff');
-  so.addParam('allowfullscreen','true');
-  so.addParam('allowscriptaccess','always');
-  so.addParam('wmode','opaque');
-  so.addVariable('file','{$VideoURL}');
-  so.write('mediaspace-small');
-</script>
-
-
-</div>
 </div><!--/contentcontainer-->
  
 

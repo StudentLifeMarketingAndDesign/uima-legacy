@@ -1,0 +1,30 @@
+#test
+
+### SILVERSTRIPE START ###
+<Files *.ss>
+Order deny,allow
+Deny from all
+Allow from 127.0.0.1
+</Files>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /
+
+RewriteCond %{REQUEST_URI} !(\.gif$)|(\.jpg$)|(\.png$)|(\.css$)|(\.js$) 
+
+RewriteRule ^lilpicard$ - [L]
+RewriteRule ^lilpicard/.* - [L]
+
+RewriteCond %{REQUEST_URI} ^(.*)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* sapphire/main.php?url=%1&%{QUERY_STRING} [L]
+</IfModule>
+### SILVERSTRIPE END ###
+
+php_value memory_limit 64M
+#php_flag display_errors 1
+#php_value error_reporting 8191
+#php_value upload_max_filesize 200M
+#php_value post_max_size 200M
+php_flag display_errors 0

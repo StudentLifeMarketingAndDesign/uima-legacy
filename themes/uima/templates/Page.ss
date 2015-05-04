@@ -98,7 +98,7 @@ $Layout
 <div class="address">
 <a href="/"><img alt="University of Iowa Museum of Art" src="$ThemeDir/images/footer_logo.png" width="194" height="78" /></a><br />
 <p>1375 Highway One West | 1840 Studio Arts Building | Iowa City, Iowa 52242<br />
-Telephone: (319) 335-1727 | Fax: (319) 335-3677 | <a href="mailto:uima@uiowa.edu">uima@uiowa.edu</a>
+Telephone: (319) 335-1727 | Fax: (319) 335-3677 | <a href="mailto:uima@uiowa.edu">uima@uiowa.edu</a> | <a href="http://www.uiowa.edu/homepage/online-privacy-information" target="_blank">Privacy Information</a>
 </p>
 </div>
 
@@ -178,12 +178,8 @@ Fax: (319) 335-3677 |
 <div style="margin-left:10px;" class="footer-links4">
 
 <ul>
-<li><h5><a href="/blog/">Blog</a></h5></li>
-</ul>
-
-<ul>
-<li><h5><a href="/support/">Donate</a></h5></li>
-<li><a href="/donor-levels">Donor Levels and Courtesies</a></li>
+<li><h5><a href="/support/">Support</a></h5></li>
+<li><a href="/donor-levels">Member Levels and Benefits</a></li>
 <li><a href="/volunteer">Volunteer Opportunities</a></li>
 </ul>
 

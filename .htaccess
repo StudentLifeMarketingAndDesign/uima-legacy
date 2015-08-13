@@ -25,6 +25,6 @@ RewriteRule .* sapphire/main.php?url=%1&%{QUERY_STRING} [L]
 php_value memory_limit 64M
 #php_flag display_errors 1
 #php_value error_reporting 8191
-#php_value upload_max_filesize 200M
-#php_value post_max_size 200M
+php_value upload_max_filesize 200M
+php_value post_max_size 200M
 php_flag display_errors 0
